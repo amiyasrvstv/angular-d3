@@ -1,0 +1,15 @@
+#power-gauge2 g.arc {
+		fill: steelblue;
+	}
+
+	#power-gauge2 g.pointer {
+		fill: #e85116;
+		stroke: #b64011;
+	}
+
+	#power-gauge2 g.label text {
+		text-anchor: middle;
+		font-size: 24px;
+		font-weight: bold;
+		fill: #666;
+	}
