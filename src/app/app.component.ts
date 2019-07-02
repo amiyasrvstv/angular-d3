@@ -39,7 +39,7 @@ export class AppComponent {
         },
         {
             title: 'Guage chart',
-            route: '/speed-guage2'
+            route: '/speed-guage3'
         },{
             title: 'Dashboard',
             route: '/speed-guage'

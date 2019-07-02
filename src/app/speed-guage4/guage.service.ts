@@ -1,8 +1,12 @@
 import * as d3 from "d3";
+import { Injectable } from "@angular/core";
 
 declare const d3: any;
+@Injectable({
+  providedIn: 'root'
+})
+export default class GuageService {
 
-export default class Gauge {
   constructor(private container: any, private configuration: any) {}
   private config = {
       size: 710,
@@ -77,7 +81,6 @@ export default class Gauge {
                 });
     }
 
-
     private centerTranslation() {
       return 'translate(' + this.r + ',' + this.r + ')';
     }
@@ -151,5 +154,7 @@ export default class Gauge {
           .attr('transform', 'rotate(' + newAngle + ')');
     }
 
-    this.configure(this.configuration);
-}
+    // this.configure(this.configuration);
+
+};
+

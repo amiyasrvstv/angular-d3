@@ -15,9 +15,9 @@ import { PieChartComponent } from './06_pie_chart/pie-chart.component';
 import { DonutChartComponent } from './07_donut_chart/donut-chart.component';
 import { SpeedGuageComponent } from './speed-guage/speed-guage.component';
 import { SpeedGuage2Component } from './speed-guage2/speed-guage2.component';
-import { SpeedGuage3Component } from './speed-guage3/speed-guage.component';
 import { MeterGuageComponent } from './meter-guage/meter-guage.component';
 import { BarChartAppComponent } from './bar-chart-app/bar-chart-app.component';
+import { SpeedGuage4Component } from './speed-guage4/speed-guage4.component';
 
 const appRoutes: Routes = [
     { path: 'line-chart', component: LineChartComponent },
@@ -29,7 +29,6 @@ const appRoutes: Routes = [
     { path: 'donut-chart', component: DonutChartComponent },
     { path: 'speed-guage', component: SpeedGuageComponent },
     { path: 'speed-guage2', component: SpeedGuage2Component },
-    { path: 'speed-gauge3', component: SpeedGuage3Component },
     { path: '',
         redirectTo: '/line-chart',
         pathMatch: 'full'
@@ -49,9 +48,9 @@ const appRoutes: Routes = [
         DonutChartComponent,
         SpeedGuageComponent,
         SpeedGuage2Component,
-        SpeedGuage3Component,
         MeterGuageComponent,
         BarChartAppComponent,
+        SpeedGuage4Component,
     ],
     imports: [
         BrowserModule,
